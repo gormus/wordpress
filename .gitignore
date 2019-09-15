@@ -1,0 +1,31 @@
+# Ignore local configuration files.
+/.env
+/wp-config.local.php
+
+# Ignore Composer packages.
+/vendor
+
+# Ignore SQL Dumps.
+*.sql
+*.sql.gz
+
+# Ignore everything in `web` folder.
+# Except:
+#  - wp-config.php file.
+#  - any custom theme or plugin...
+/web/composer.json
+/web/index.php
+/web/license.txt
+/web/readme.html
+/web/wp-*.php
+/web/xmlrpc.php
+/web/wp-admin/*
+/web/wp-content/index.php
+/web/wp-content/plugins/*
+/web/wp-content/themes/*
+/web/wp-content/uploads/*
+/web/wp-includes/*
+
+!/web/wp-config.php
+!/web/wp-content/plugins/custom_plugin
+!/web/wp-content/themes/custom_theme

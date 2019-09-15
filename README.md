@@ -12,6 +12,10 @@ Besides the WordPress core, following also added as minimalist examples:
 * [cweagans/composer-patches](https://packagist.org/packages/cweagans/composer-patches) to apply patches via Composer.
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer), and [WordPress coding standards](https://github.com/WordPress/WordPress-Coding-Standards).
 
+## Installation
+```sh
+composer create-project gormus/wordpress your_folder
+```
 
 ## PHP_CodeSniffer
 The first time this project is installed, [WordPress coding standards](https://github.com/WordPress/WordPress-Coding-Standards#rulesets) are installed as well. They can also be installed via following command:
